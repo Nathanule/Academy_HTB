@@ -59,7 +59,7 @@ class PortScanner:
     
 if __name__ == "__main__":
     if len(sys.argv) != 3:
-        print('usage python3 port_scanner.py <target_ip> <port_range>')
+        print('usage python3 Portscanner.py <target_ip> <port_range>')
         sys.exit(1)
     target_ip = sys.argv[1]
     port_range = sys.argv[2]
